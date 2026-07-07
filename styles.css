@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #cccccc;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+button {
+  margin-top: 18px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #2d89ef;
+  color: white;
+}
+
+button:hover {
+  background-color: #1b5fa7;
+}
+
+#mensagem {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f7f7f7;
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-excluir {
+  background-color: #d9534f;
+  margin-top: 0;
+  padding: 8px 12px;
+}
+
+.btn-excluir:hover {
+  background-color: #b52b27;
+}
