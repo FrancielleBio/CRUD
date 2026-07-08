@@ -4,7 +4,7 @@
 // Exemplo:
 // const API_URL = "https://crudcrud.com/api/SEU_CODIGO/clientes";
 
-const API_URL = "https://crudcrud.com/api/c1d6fc6382a0495393e8e99ddb7f2fb1";
+const API_URL = "https://crudcrud.com/api/c1d6fc6382a0495393e8e99ddb7f2fb1/clientes";
 
 const formCliente = document.getElementById("formCliente");
 const listaClientes = document.getElementById("listaClientes");
